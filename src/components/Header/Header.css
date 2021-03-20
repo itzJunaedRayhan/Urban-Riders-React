@@ -1,0 +1,43 @@
+.navbar{
+    padding: 0 !important;
+}
+.brand img{
+    width: 120px;
+    height: 90px;
+}
+.navbar-nav{
+    padding-right: 3%;
+    margin: 15px;
+}
+.items a{
+    margin-top: 3px;
+    width: 150px;
+    height: 50px;
+    text-decoration: none !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    color: black !important;
+}
+.items .login{
+    background-color: tomato !important;
+    color: white !important;
+}
+.login a{
+    color: #fff !important;
+}
+
+.navbar button{
+    width: 70px !important;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-radius: 5px !important;
+}
