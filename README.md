@@ -12,5 +12,7 @@
 11. images in FakeData hosted in the 'Pixel.com Site'
 
 
+Note : Facebook Auth as a Third party System thats why sometimes its failed to Login and For this reason i also added Google Login System. Thank You.
 
-host site : 
+
+Hosting URL:  https://webgenesis-urban-rider.web.app
