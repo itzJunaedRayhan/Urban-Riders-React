@@ -7,7 +7,7 @@ import './Header.css'
 const Header = () => {
     const {id} = useParams()
     const [loggedInUser, setLoggedInUser] = useContext(userContext)
-    const [vehicles, setVehicles] = useContext(userContext)
+    const [info, setInfo] = useContext(userContext)
     return (
         <div className="header">
             <Navbar collapseOnSelect expand="lg" variant="dark">
@@ -20,7 +20,7 @@ const Header = () => {
                         <Nav.Link><Link to={`/destination/1`}>Destination</Link></Nav.Link>
                         <Nav.Link><Link to="/home">Blog</Link></Nav.Link>
                         <Nav.Link><Link to="/home">Contact</Link></Nav.Link>
-                        <Nav.Link className="login"><Link to="/login">{loggedInUser.displayName || loggedInUser.email || 'Login'}</Link></Nav.Link>
+                        <Nav.Link className="login"><Link to="/login">{loggedInUser.displayName || 'Login'}</Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

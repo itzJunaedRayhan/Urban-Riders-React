@@ -92,7 +92,7 @@ const FormValidation = () => {
                 newUserInfo.success = true;
                 setUser(newUserInfo)
                 setLoggedInUser(result.user)
-                console.log('Old user', result.user)
+                history.replace(from);
             })
             .catch((error) => {
                // Error Handle

@@ -10,10 +10,11 @@ import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 export const userContext = createContext()
 
 function App() {
-  const [vehicles, setVehicles] = useState([])
-  const {id} = vehicles;
+  const [info, setInfo] = useState([])
+  const [loggedInUser, setLoggedInUser] = useState([])
+  const {id} = info;
   return (
-    <userContext.Provider value={[vehicles, setVehicles]}>
+    <userContext.Provider value={[info, setInfo],[loggedInUser, setLoggedInUser]}>
       <Router>
         <Header/>
         <Switch>

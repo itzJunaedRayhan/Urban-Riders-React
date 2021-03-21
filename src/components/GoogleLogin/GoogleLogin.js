@@ -40,7 +40,6 @@ const GoogleLogin = () => {
                 photo : photoURL
             }
             setUser(UserData)
-            console.log(UserData)
             setLoggedInUser(result.user)
             history.replace(from);
         }).catch((error) => {

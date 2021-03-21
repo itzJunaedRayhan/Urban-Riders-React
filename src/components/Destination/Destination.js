@@ -61,7 +61,7 @@ const Destination = () => {
 
     return (
         <div className="destination">
-                <div className="location">
+                <div className="location col-md-6 col-sm-12">
                     {
                     isValid ? <div className="get-location">
                                     <div className="location-info">
@@ -112,7 +112,7 @@ const Destination = () => {
 
                     }
                 </div>
-                <div className="map">
+                <div className="map col-md-6 col-sm-12">
                     <MapContainer/>
                 </div>
             </div>
