@@ -111,7 +111,6 @@ const FormValidation = () => {
         user.updateProfile({
         displayName: name
     }).then(function() {
-        console.log('user name updated Successfully')
         }).catch(function(error) {
             console.log(error)
         });

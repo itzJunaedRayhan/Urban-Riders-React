@@ -112,7 +112,7 @@ const Destination = () => {
 
                     }
                 </div>
-                <div className="map col-md-6 col-sm-12">
+                <div className="map col-md-6">
                     <MapContainer/>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 .home{
     background: url(../../images/background.png);
     min-height: 85vh;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;

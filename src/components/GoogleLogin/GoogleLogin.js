@@ -31,7 +31,6 @@ const GoogleLogin = () => {
         firebase.auth().signInWithPopup(GoogleProvider)
             .then((result) => {
             var user = result.user;
-            console.log(user)
             const {displayName, email, photoURL} = result.user;
             const UserData = {
                 isSignIn : true, 
